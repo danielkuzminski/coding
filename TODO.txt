@@ -1,0 +1,7 @@
+to do:
+--authentication
+
+sorted:
+--set routing
+--5 main pages
+--menu navigation

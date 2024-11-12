@@ -1,0 +1,25 @@
+.navigation {
+    width: 100vw;
+    padding: 1rem;
+
+    .nav__list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        justify-content: center;
+
+
+        .nav__item {
+            font-size: 2rem;
+            list-style: none;
+            margin: 0 2rem;
+            
+            .nav__link {
+                text-decoration: none;
+                color: rgb(141, 92, 248);
+                text-transform: uppercase;
+            }
+        }
+    }
+}
