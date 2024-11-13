@@ -1,6 +1,7 @@
 .navigation {
     width: 100vw;
-    padding: 1rem;
+    padding: .5rem;
+    background-color: transparent;
 
     .nav__list {
         width: 100%;
@@ -19,6 +20,12 @@
                 text-decoration: none;
                 color: rgb(141, 92, 248);
                 text-transform: uppercase;
+                padding: .5rem;
+            }
+
+            .nav__link.active {
+                background-color: rgb(250, 252, 112);
+                border-radius: .6rem;
             }
         }
     }

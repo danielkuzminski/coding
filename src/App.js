@@ -10,6 +10,7 @@ import JavascriptPage from './pages/javascript/JavascriptPage'
 import FirebasePage from './pages/firebase/FirebasePage'
 import ReactPage from './pages/react/ReactPage'
 import StylePage from './pages/styling/StylePage'
+import Article from './pages/article/Article';
 
 //components
 import Navbar from './components/navigation/Navbar';
@@ -27,6 +28,7 @@ function App() {
           <Route path='/react' element={<ReactPage />} />
           <Route path='/firebase' element={<FirebasePage />} />
           <Route path='/style' element={<StylePage />} />
+          <Route path='/article/:id' element={<Article />} />
         </Routes>
       </BrowserRouter>
     </div>
