@@ -2,6 +2,7 @@
     width: 100vw;
     padding: .5rem;
     background-color: transparent;
+    z-index: 1000;
 
     .nav__list {
         width: 100%;
@@ -26,6 +27,13 @@
             .nav__link.active {
                 background-color: rgb(250, 252, 112);
                 border-radius: .6rem;
+            }
+
+            .add {
+                display: flex;
+                width: 2.2rem;
+                height: 2.2rem;
+                cursor: pointer;
             }
         }
     }

@@ -1,0 +1,36 @@
+.addForm {
+    
+    
+    .form__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .form__title {
+            text-transform: uppercase;
+            font-size: 2.6rem;
+        }
+
+        .form__label__title, .form__label {
+            display: flex;
+            flex-direction: column;
+
+            .form__text__title {
+                /* display: block; */
+                width: 40rem;
+            }
+
+            .form__input {
+                width: 40rem;
+            }
+            
+            .form__text {
+                height: 20rem;
+                width: 40rem;
+            }
+        }
+        
+    }
+}
